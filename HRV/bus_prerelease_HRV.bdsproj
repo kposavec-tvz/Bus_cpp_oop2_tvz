@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">W32ResourceDLL.Personality</Option>
+			<Option Name="ProjectType">ResourceDLL</Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{28C9FFC6-5CCD-4082-964E-3F9639E70E07}</Option>
+		</Option>
+	</PersonalityInfo>
+	<W32ResourceDLL.Personality>
+		<Source>
+			<Source Name="MainSource">bus_prerelease.dpr</Source>
+		</Source>
+		<Options>
+			<Options Name="BaseLang">1033</Options>
+			<Options Name="TargetName">..\.\Win32\Debug\bus_prerelease.HRV</Options>
+			<Options Name="BRCC_IncludePath">..\20.0\CatalogRepository\LockBox-2.4cb\source\</Options>
+			<Options Name="Company"></Options>
+			<Options Name="Configuration"></Options>
+			<Options Name="Copyright"></Options>
+			<Options Name="Description"></Options>
+			<Options Name="Trademark"></Options>
+			<Options Name="Product"></Options>
+			<Options Name="ProductVersion"></Options>
+			<Options Name="Title"></Options>
+			<Options Name="FileVersion"></Options>
+			<Options Name="Evidence"></Options>
+			<Options Name="KeyFile"></Options>
+			<Options Name="KeyName"></Options>
+		</Options>
+		<FileList><File FileName="Unit1.dfm" ContainerId="W32Form" ModuleName="Unit1.dfm"/><File FileName="Unit2.dfm" ContainerId="W32Form" ModuleName="Unit2.dfm"/><File FileName="Unit3.dfm" ContainerId="W32Form" ModuleName="Unit3.dfm"/><File FileName="Unit4.dfm" ContainerId="W32Form" ModuleName="Unit4.dfm"/><File FileName="Unit5.dfm" ContainerId="W32Form" ModuleName="Unit5.dfm"/><File FileName="Unit6.dfm" ContainerId="W32Form" ModuleName="Unit6.dfm"/><File FileName="Unit7.dfm" ContainerId="W32Form" ModuleName="Unit7.dfm"/><File FileName="Win32\Debug\bus_prerelease_DRC.rc" ContainerId="W32RC" ModuleName="bus_prerelease_DRC.rc"/></FileList></W32ResourceDLL.Personality>
+</BorlandProject>

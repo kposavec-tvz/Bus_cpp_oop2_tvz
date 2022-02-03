@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\Users\THEPOP~1\AppData\Local\Temp\9CF6.tmp" source-language="en-US" target-language="en-US" datatype="cpp" tool="ETM v10.0" ts="C:\Users\THEPOP~1\AppData\Local\Temp\9CF6.tmp">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">44342.9372916667</prop>
+        <prop prop-type="OrigDateTime">44342.9373148148</prop>
+        <prop prop-type="XlatDateTime">44341.7879861111</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">2</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="Lbconst_sLbVersion" resname="Lbconst_sLbVersion">
+        <source>"2.08"</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">44341.7879647801</prop>
+          <prop prop-type="Status">0</prop>
+        </prop-group>
+      </trans-unit>
+      <trans-unit id="Lbproc_16407" resname="Lbproc_16407">
+        <source>"Invalid file format"</source>
+        <prop-group name="ITEFieldProp">
+          <prop prop-type="Created">44341.7879647801</prop>
+          <prop prop-type="Status">0</prop>
+        </prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

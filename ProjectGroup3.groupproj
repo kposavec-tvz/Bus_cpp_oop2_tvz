@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{FD187866-9461-43B0-B6E2-072EFC38594A}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="bus_prerelease.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="HRV\bus_prerelease_HRV.bdsproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ENU\bus_prerelease_ENU.bdsproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="bus_prerelease">
+        <MSBuild Projects="bus_prerelease.cbproj"/>
+    </Target>
+    <Target Name="bus_prerelease:Clean">
+        <MSBuild Projects="bus_prerelease.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="bus_prerelease:Make">
+        <MSBuild Projects="bus_prerelease.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="bus_prerelease_HRV">
+        <MSBuild Projects="HRV\bus_prerelease_HRV.bdsproj"/>
+    </Target>
+    <Target Name="bus_prerelease_HRV:Clean">
+        <MSBuild Projects="HRV\bus_prerelease_HRV.bdsproj" Targets="Clean"/>
+    </Target>
+    <Target Name="bus_prerelease_HRV:Make">
+        <MSBuild Projects="HRV\bus_prerelease_HRV.bdsproj" Targets="Make"/>
+    </Target>
+    <Target Name="bus_prerelease_ENU">
+        <MSBuild Projects="ENU\bus_prerelease_ENU.bdsproj"/>
+    </Target>
+    <Target Name="bus_prerelease_ENU:Clean">
+        <MSBuild Projects="ENU\bus_prerelease_ENU.bdsproj" Targets="Clean"/>
+    </Target>
+    <Target Name="bus_prerelease_ENU:Make">
+        <MSBuild Projects="ENU\bus_prerelease_ENU.bdsproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="bus_prerelease;bus_prerelease_HRV;bus_prerelease_ENU"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="bus_prerelease:Clean;bus_prerelease_HRV:Clean;bus_prerelease_ENU:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="bus_prerelease:Make;bus_prerelease_HRV:Make;bus_prerelease_ENU:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

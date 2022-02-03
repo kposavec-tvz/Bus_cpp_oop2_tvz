@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-2"?>
+<bodovi>
+	<rezultat>
+		<idRezultat>23052021092423iprezime</idRezultat>
+		<ime>Ime Prezime</ime>
+		<user>iprezime</user>
+		<email>email@mail.com</email>
+		<igraVrsta>1</igraVrsta>
+		<brojBodova>12</brojBodova>
+		<sakriven>0</sakriven>
+	</rezultat>
+	<rezultat>
+		<idRezultat>21211</idRezultat>
+		<ime>Ime Prezime izmje</ime>
+		<user>izmjenjenID2</user>
+		<email>email@izmjena.hr</email>
+		<igraVrsta>1</igraVrsta>
+		<brojBodova>12</brojBodova>
+		<sakriven>0</sakriven>
+	</rezultat>
+	<rezultat>
+		<idRezultat>234242</idRezultat>
+		<ime>Ime Prezime</ime>
+		<user>iprezime</user>
+		<email>email@mail.com</email>
+		<igraVrsta>1</igraVrsta>
+		<brojBodova>12</brojBodova>
+		<sakriven>0</sakriven>
+	</rezultat>
+	<rezultat>
+		<idRezultat>2342131342</idRezultat>
+		<ime>Ime proireni1</ime>
+		<user>iprezime</user>
+		<email>email@mail.com</email>
+		<igraVrsta>222</igraVrsta>
+		<brojBodova>112</brojBodova>
+		<sakriven>0</sakriven>
+	</rezultat>
+	<rezultat>
+		<idRezultat>kposavec16217694922</idRezultat>
+		<ime>Kresimir Posavec</ime>
+		<user>kposavec</user>
+		<email>kposavec@tvz.hr</email>
+		<igraVrsta>0</igraVrsta>
+		<brojBodova>218</brojBodova>
+		<sakriven>0</sakriven>
+	</rezultat>
+	<rezultat>
+		<idRezultat>kposavec16219323866</idRezultat>
+		<ime>Kresimir Posavec1</ime>
+		<user>kposavec</user>
+		<email>kposavec@tvz.hr</email>
+		<igraVrsta>0</igraVrsta>
+		<brojBodova>294</brojBodova>
+		<sakriven>0</sakriven>
+	</rezultat>
+	<rezultat>
+		<idRezultat>kposavec16219328811</idRezultat>
+		<ime>Kresimir Posavec1</ime>
+		<user>kposavec</user>
+		<email>kposavec@tvz.hr</email>
+		<igraVrsta>0</igraVrsta>
+		<brojBodova>272</brojBodova>
+		<sakriven>EBC9B271F3F5DC4269E0CEE992FB02F2</sakriven>
+	</rezultat>
+	<rezultat>
+		<idRezultat>Korisnicko ime16219677922</idRezultat>
+		<ime>Ime i prezime</ime>
+		<user>Korisnicko ime</user>
+		<email>Email</email>
+		<igraVrsta>0</igraVrsta>
+		<brojBodova>198</brojBodova>
+		<sakriven>82AAE6D64FD12ED99C00E65252FE7636</sakriven>
+	</rezultat>
+	<rezultat>
+		<idRezultat>Username16219718011</idRezultat>
+		<ime>Name Surname</ime>
+		<user>Username</user>
+		<email>EMail</email>
+		<igraVrsta>1</igraVrsta>
+		<brojBodova>251</brojBodova>
+		<sakriven>3460B74A8FB40151E80C0DB4F2560B37</sakriven>
+	</rezultat>  <rezultat>
+    <idRezultat>Korisnicko ime16221064399</idRezultat>
+    <ime>Ja Varam</ime>
+    <user>Korisnicko ime</user>
+    <email>Email</email>
+    <igraVrsta>1</igraVrsta>
+    <brojBodova>353</brojBodova>
+    <sakriven>703AB210BA22912DFBCEBD7E25775C1C</sakriven>
+  </rezultat>
+</bodovi>

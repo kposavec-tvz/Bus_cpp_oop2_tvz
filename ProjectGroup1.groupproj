@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{C47FD0F3-9B5F-4C29-B53F-34A04BA1CF70}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="bus_prerelease.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="bus_prerelease">
+        <MSBuild Projects="bus_prerelease.cbproj"/>
+    </Target>
+    <Target Name="bus_prerelease:Clean">
+        <MSBuild Projects="bus_prerelease.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="bus_prerelease:Make">
+        <MSBuild Projects="bus_prerelease.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="bus_prerelease"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="bus_prerelease:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="bus_prerelease:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

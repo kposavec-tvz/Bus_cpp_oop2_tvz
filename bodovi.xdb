@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xdb="http://www.borland.com/schemas/delphi/10.0/XMLDataBinding">
+	<xs:element name="bodovi" type="bodoviType"/>
+	<xs:complexType name="bodoviType"><xs:annotation>
+			<xs:appinfo xdb:docElement="bodovi"/>
+		</xs:annotation>
+		<sequence xmlns="http://www.w3.org/2001/XMLSchema">
+			<xs:element name="rezultat" type="rezultatType" maxOccurs="unbounded"/>
+		</sequence>
+	</xs:complexType>
+	<xs:complexType name="rezultatType"><xs:annotation>
+			<xs:appinfo xdb:repeated="True"/>
+		</xs:annotation>
+		<sequence xmlns="http://www.w3.org/2001/XMLSchema">
+			<xs:element name="idRezultat" type="xs:string"/>
+			<xs:element name="ime" type="xs:string"/>
+			<xs:element name="user" type="xs:string"/>
+			<xs:element name="email" type="xs:string"/>
+			<xs:element name="igraVrsta" type="xs:integer"/>
+			<xs:element name="brojBodova" type="xs:integer"/>
+			<xs:element name="sakriven" type="xs:integer"><xs:annotation>
+          <xs:appinfo xdb:dataType="System::UnicodeString"/>
+        </xs:annotation>
+      </xs:element>
+		</sequence>
+	</xs:complexType>
+</xs:schema>

@@ -1,0 +1,79 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderStyle = bsSingle
+  Caption = 'Po'#269'etni zaslon'
+  ClientHeight = 304
+  ClientWidth = 856
+  Color = clCream
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Arial Narrow'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesigned
+  OnActivate = FormActivate
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 15
+  object Label1: TLabel
+    Left = 24
+    Top = 16
+    Width = 281
+    Height = 64
+    Caption = 'Dobrodo'#353'ao'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -53
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object ButtonPostavke: TButton
+    Left = 680
+    Top = 240
+    Width = 164
+    Height = 51
+    Caption = 'Postavke'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnClick = ButtonPostavkeClick
+  end
+  object ButtonRezultati: TButton
+    Left = 8
+    Top = 240
+    Width = 164
+    Height = 51
+    Caption = 'Rezultati'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    OnClick = ButtonRezultatiClick
+  end
+  object ButtonClassicGame: TButton
+    Left = 144
+    Top = 96
+    Width = 577
+    Height = 122
+    Caption = 'IGRAJ'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -67
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    OnClick = ButtonClassicGameClick
+  end
+end
